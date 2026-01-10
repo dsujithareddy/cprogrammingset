@@ -3,6 +3,8 @@
 #include<conio.h>
 int main()
 {
+  clrscr();
 printf("sujitha");
+  getch();
   return 0;
 }
