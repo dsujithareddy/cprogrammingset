@@ -9,6 +9,7 @@ void find_area(Triangle *t);
 void output(Triangle t);
 int main()
 {
+printf("enter the values");
 Triangle t;
 t = input_triangle();
 find_area(&t);
@@ -30,3 +31,4 @@ void output(Triangle t)
 {
 printf("The area of triangle with base = %f and altitude = %f is %f\n", t.base, t.altitude, t.area);
 }
+
